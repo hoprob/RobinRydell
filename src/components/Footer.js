@@ -13,7 +13,7 @@ function Footer(){
               </p>
               <p>© {new Date().getFullYear()}</p>
             </div>
-            <div>
+            <div className="flex justify-center items-center">
               <ContactIcons
                 textSizeClass="text-lg"
                 spaceXClass="space-x-5"
