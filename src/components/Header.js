@@ -6,10 +6,10 @@ function Header() {
           <span>{"<RobinRydell/>"}</span>
         </div>
         <div className="navmenu text-info flex items-center space-x-4">
-          <a href="#">About</a>
+          {/* <a href="#">About</a>
           <a href="#">Project</a>
           <a href="#">Resumé</a>
-          <a href="#">Contact</a>
+          <a href="#">Contact</a> */}
         </div>
       </div> 
     </div>
