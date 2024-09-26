@@ -8,15 +8,18 @@ function HomeBrewing(){
                     <div className="me-5">
                         <h5 className="text-xl text-info font-bold">Hembryggning</h5>
                         <p className="text-secondary font-semibold [&>span]:text-info [&>span]:italic">
-                        När jag inte kodar på fritiden brygger jag gärna öl hemma i mitt bryggeri. 
-                        Ölbryggning är ett ämne man verkligen kan nörda ned sig i och finslipa in i de minsta detaljerna. 
-                        Just nu håller jag på att finslipa lager och pilsner recept för att kunna avnjuta en 
-                        perfekt lager hemma i tappen. För att lyckas med detta behöver man ju givetvis bra mjukvara. 
-                        Min jäskammare styrs av en raspberry pi där jag kör en egenbyggd applikation i 
-                        <span>Python</span> för att styra temperatur samt lagra statistik kring jäsningen. 
-                        Den kör också en server där ett gränssnitt byggt i <span>Angular</span> gör det 
-                        möjligt att styra min jäskammare både lokalt och på distans.<br/> Allt i jakten på den perfekta 
-                        lagern..</p>
+                            När jag inte kodar, brygger jag gärna öl hemma. 
+                            Ölbryggning är en hobby där man verkligen kan 
+                            nörda ned sig i detaljer. Just nu finslipar jag 
+                            lager- och pilsnerrecept för att få fram den 
+                            perfekta lagern hemma i tappen. För att lyckas 
+                            använder jag en Raspberry Pi med en 
+                            egenbyggd <span>Python</span>-applikation för att styra 
+                            temperaturen och lagra statistik. 
+                            Jag har även byggt ett <span>Angular</span>-gränssnitt 
+                            för att styra jäskammaren både lokalt och på 
+                            distans.<br/>                           
+                            Allt i jakten på den perfekta lagern.</p>
                     </div>
                     <img className="h-60 rounded-md drop-shadow-md mb-5 sm:mb-0" src={homebrewImg} alt="Image of code"></img>
                 </div>
