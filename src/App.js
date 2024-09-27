@@ -27,7 +27,7 @@ function App() {
     <div className="App relative bg-primary">      
       <Header></Header>
       <main className="pt-16 z-0 pb-10">
-        <div className={`flex flex-col space-y-5 pt-32 ${scrollPosition < 50 ? 'pb-10' : 'pb-2'} mb-2 justify-between h-[calc(100vh-64px)] min-h-[450px]`}>        
+        <div className={`flex flex-col space-y-5 pt-32 ${scrollPosition < 50 ? 'sm:pb-10 pb-12' : 'pb-2'} mb-2 justify-between h-[calc(100vh-64px)] min-h-[450px]`}>
             <Jumbotron></Jumbotron>
             <ScrollDownChevron chevronExpanded={scrollPosition < 50}></ScrollDownChevron>
         </div>
