@@ -1,26 +1,5 @@
 
 function ScrollDownChevron({chevronExpanded = true}){
-
-    const rotate = 38;
-    const spaceXVal = 50;
-
-    // const [rotate, setRotate] = useState(rotateVal);
-    // const [spaceX, setSpaceX] = useState(spaceXVal);
-    //const [chevronExpanded, setChevronExpanded] = useState(chevronExpanded);
-
-    // function onBtnClick(){
-    //     if(chevronExpanded){
-    //         setRotate(0);
-    //         setSpaceX(22);
-    //         setChevronExpanded(false);
-    //     }
-    //     else{
-    //         setRotate(38);
-    //         setSpaceX(spaceXVal);
-    //         setChevronExpanded(true);
-    //     }
-    // }
-
     return(
         <div className="w-full flex flex-col justify-center text-secondary">
             <p className="text-center font-semibold">Mer om mig</p>
