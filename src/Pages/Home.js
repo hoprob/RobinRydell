@@ -23,7 +23,7 @@ function Home() {
     <>
       <div
         className={`flex flex-col space-y-5 pt-32 ${
-          scrollPosition < 50 ? "sm:pb-10 pb-12" : "pb-2"
+          scrollPosition < 50 ? "sm:pb-10 pb-14" : "pb-2"
         } mb-2 justify-between h-[calc(100vh-64px)] min-h-[450px]`}
       >
         <Jumbotron></Jumbotron>
