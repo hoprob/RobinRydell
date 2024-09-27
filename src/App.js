@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import { useState, useEffect } from 'react';
 import {Routes, Route} from 'react-router-dom';
 import NoMatch from './components/NoMatch';
+import Resume from './Pages/Resume';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <main className="pt-16 z-0 pb-10">
           <Routes>
             <Route path="/" element={<Home/>}/>
+            <Route path="/resume" element={<Resume/>}/>
             <Route path="*" element={<NoMatch/>}/>
           </Routes>
       </main>

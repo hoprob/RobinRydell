@@ -8,12 +8,12 @@ function Header() {
           <NavLink to="/">{"<RobinRydell/>"}</NavLink>
         </div>
         <div className="navmenu text-info flex items-center space-x-4">
-          {/* <a href="#">About</a>
-          <a href="#">Project</a>
+          <NavLink to="/resume">CV</NavLink>
+          {/*<a href="#">Project</a>
           <a href="#">Resumé</a>
           <a href="#">Contact</a> */}
         </div>
-      </div> 
+      </div>
     </div>
   );
 }
