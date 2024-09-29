@@ -1,6 +1,6 @@
 function EducationItem({ icon, educationInfo }) {
   return (
-    <div className="text-secondary">
+    <div className="text-info">
       <div className="flex flex-row items-center text-info">
         <i className={`${icon} me-2`}></i>
         <h5 className="text-lg font-bold">
@@ -9,7 +9,7 @@ function EducationItem({ icon, educationInfo }) {
       </div>
       <div className="ms-7">
         <i>{educationInfo.institution}</i>
-        <p>{educationInfo.text}</p>
+        <p className="ms-1 text-secondary">{educationInfo.text}</p>
       </div>
     </div>
   );

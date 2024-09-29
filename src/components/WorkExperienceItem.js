@@ -1,6 +1,6 @@
 function WorkExperienceItem({icon, workExpInfo}){
     return(
-        <div className="text-secondary">
+        <div className="text-info">
       <div className="flex flex-row items-center text-info">
         <i className={`${icon} me-2`}></i>
         <h5 className="text-lg font-bold">
@@ -9,7 +9,7 @@ function WorkExperienceItem({icon, workExpInfo}){
       </div>
       <div className="ms-7">
         <i>{workExpInfo.title}</i>
-        <p>{workExpInfo.text}</p>
+        <p className="ms-1 text-secondary">{workExpInfo.text}</p>
       </div>
     </div>
     );

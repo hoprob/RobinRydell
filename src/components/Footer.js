@@ -6,8 +6,8 @@ function Footer(){
         <div className="w-10/12 md:w-9/12 lg:w-4/6 xl:w-7/12">
           <hr className="text-secondary my-3"></hr>
           <div className="grid grid-cols-3">
-            <div className="col-1 text-secondary">
-              <p className="font-semibold text-xs sm:text-sm">
+            <div className="col-1 text-secondary text-xs sm:text-sm">
+              <p className="font-semibold">
                 Design + kod av: <br/>
                 <span className="font-bold text-info">Robin Rydell</span>
               </p>
