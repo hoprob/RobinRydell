@@ -3,6 +3,7 @@ import ScrollDownChevron from "../components/ScrollDownChevron";
 import InformationCode from "../components/InformationCode";
 import HomeBrewing from "../components/HomeBrewing";
 import { useState, useEffect } from "react";
+import AboutMe from "../components/AboutMe";
 function Home() {
 
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -32,6 +33,7 @@ function Home() {
         ></ScrollDownChevron>
       </div>
       <div className="space-y-16">
+        <AboutMe></AboutMe>
         <InformationCode></InformationCode>
         <HomeBrewing></HomeBrewing>
       </div>
