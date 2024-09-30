@@ -8,21 +8,21 @@ function WorkExperience() {
       icon='fa-solid fa-code'
       workExpInfo = {{company: "Varbergs Kommun", years: "2023-06-19 – nu",
       title: "Systemutvecklare",
-      text: "Under min LIA på Varbergs Kommun har jag deltagit i det dagliga arbetet med en blandning av Blazor (server- och clientside) i frontend och .NET i backend. Jag utvecklade själv en webbapplikation som fungerar som CMS mot ett system för e-tjänster där huvuddelen är byggd i Blazor och ett API för att kommunicera med det externa systemet. Ett annat projekt jag utvecklade var en integration mellan ett bokningssystem och ett passagesystem för kommunens idrottsanläggningar. Jag fick också delta i projekt tillsammans med andra teammedlemmar samt hantera kundkontakt",
+      text: "Som fullstack-utvecklare på Varbergs Kommun arbetar jag med Blazor i frontend och .NET i backend. Jag driver projekt självständigt med stortansvar och har mycket kundkontakt. Vid större projekt samarbetar vi i team. Jobbet ger mig även erfarenhet av att publicera och hantera applikationer i Azure samt on-prem.",
       }}>
       </WorkExperienceItem>
       <WorkExperienceItem
       icon='fa-solid fa-code'
       workExpInfo = {{company: "Digital Creation (LIA)", years: "2022-02-26 - 2023-05-05",
       title: "Systemutvecklare",
-      text: "LIA hos Digital Creation där jag deltog i det dagliga arbetet och var med i projekt mot kunder. Jag fick möjligheten att jobba med .NET i backend och Vue och Angular i Frontend. Gjorde även mitt projektarbete här där jag utforskada AKKA.NET i en applikation för ölbryggning."
+      text: "LIA hos Digital Creation där jag deltog i det dagliga arbetet och var med i projekt mot kunder. Jag fick jobba med .NET i backend och Vue och Angular i frontend samt bekanta mig med tekniker som mediatR, AKKA.NET och Clean Architecture."
       }}>
       </WorkExperienceItem>
       <WorkExperienceItem
       icon='fa-solid fa-code'
       workExpInfo = {{company: "Varbergs Kommun (LIA)", years: "2022-11-07 – 2023-02-24",
       title: "Systemutvecklare",
-      text: "Under min LIA på Varbergs Kommun har jag deltagit i det dagliga arbetet med en blandning av Blazor (server- och clientside) i frontend och .NET i backend. Jag utvecklade själv en webbapplikation som fungerar som CMS mot ett system för e-tjänster där huvuddelen är byggd i Blazor och ett API för att kommunicera med det externa systemet. Ett annat projekt jag utvecklade var en integration mellan ett bokningssystem och ett passagesystem för kommunens idrottsanläggningar. Jag fick också delta i projekt tillsammans med andra teammedlemmar samt hantera kundkontakt",
+      text: "Under min LIA på Varbergs Kommun arbetade jag med Blazor i frontend och .NET i backend. Jag utvecklade en webbapplikation med databaser och API:er efter specifikationer och kunddialoger, samt integrationer mellan boknings och passagesystem för idrottsanläggningar. Jag deltog även i projekt och hanterade kundkontakt.",
       }}>
       </WorkExperienceItem>
       <WorkExperienceItem
